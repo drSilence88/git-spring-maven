@@ -3,3 +3,6 @@ How to fix 'Can't connect to any URI: https://github.com/*/Github.git - not auth
 GitHub -> Settings -> Developer Settings -> Personal Token ->
 											* 90 days
 											* Repo
+											
+											
+Third commit to chake if is saved the password
