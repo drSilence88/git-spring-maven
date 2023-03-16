@@ -1,1 +1,5 @@
 Test commit
+How to fix 'Can't connect to any URI: https://github.com/*/Github.git - not authorized' error.
+GitHub -> Settings -> Developer Settings -> Personal Token ->
+											* 90 days
+											* Repo
