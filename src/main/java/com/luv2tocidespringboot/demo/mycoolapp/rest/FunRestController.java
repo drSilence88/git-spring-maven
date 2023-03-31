@@ -9,6 +9,18 @@ public class FunRestController {
 	//expose "/" Hello World
 	@GetMapping("/")
 	public String sayHello() {
-		return "Hello World!!";
+		return "Hello World!!!";
 	}
+	
+	//expose a new endpoint for "workout"
+	@GetMapping("/workout")
+	public String getDailyWorkout() {
+		return "Run a hard 5k!";
+	}
+	
+	//expose a new endpoint for "fortune"
+		@GetMapping("/fortune")
+		public String getDailyFourtune() {
+			return "Today is your lucky day.";
+		}
 }
