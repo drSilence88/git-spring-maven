@@ -1,1 +1,4 @@
-POM - Project Object Model File - Configuration file for your project
+Create a run locally with Maven:
+mvn package
+/target/java -jar <jarname> or ~/mvn spring-boot:run
+
